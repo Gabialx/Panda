@@ -1,4 +1,4 @@
-package com.example.dani.myapplication;
+package com.example.panda.myapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

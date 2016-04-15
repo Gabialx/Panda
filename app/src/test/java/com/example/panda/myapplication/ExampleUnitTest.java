@@ -1,4 +1,4 @@
-package com.example.dani.myapplication;
+package com.example.panda.myapplication;
 
 import org.junit.Test;
 
