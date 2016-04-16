@@ -16,12 +16,11 @@
         android:orientation="vertical">
 
         <TextView
-            style="@style/title"
             android:id="@+id/textViewApplicationName"
+            style="@style/title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/app_name"
-            />
+            android:text="@string/app_name" />
 
         <RelativeLayout
             style="@style/category_layout"
@@ -59,7 +58,8 @@
 
             <TableRow
                 android:layout_width="0dp"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:paddingBottom="4sp">
 
                 <TextView
                     style="@style/image_text"
@@ -67,8 +67,7 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i01"
-                    android:text="@string/main_category1_item1"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:text="@string/main_category1_item1" />
 
                 <TextView
                     style="@style/image_text"
@@ -76,8 +75,7 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i02"
-                    android:text="@string/main_category1_item2"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:text="@string/main_category1_item2" />
             </TableRow>
 
             <TableRow
@@ -90,8 +88,7 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i01"
-                    android:text="@string/main_category1_item3"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:text="@string/main_category1_item3" />
 
                 <TextView
                     style="@style/image_text"
@@ -99,8 +96,7 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i02"
-                    android:text="@string/main_category1_item4"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:text="@string/main_category1_item4" />
             </TableRow>
 
 
@@ -116,8 +112,8 @@
             android:background="@drawable/gradient2">
 
             <ImageView
-                style="@style/category_image"
                 android:id="@+id/imageViewCategory2"
+                style="@style/category_image"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
@@ -125,8 +121,8 @@
                 android:src="@drawable/icon2" />
 
             <TextView
-                style="@style/category_text"
                 android:id="@+id/textViewCategory2"
+                style="@style/category_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
@@ -142,7 +138,8 @@
 
             <TableRow
                 android:layout_width="0dp"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:paddingBottom="4sp">
 
                 <TextView
                     style="@style/image_text"
@@ -150,8 +147,7 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i01"
-                    android:text="@string/main_category2_item1"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:text="@string/main_category2_item1" />
 
                 <TextView
                     style="@style/image_text"
@@ -159,8 +155,7 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i02"
-                    android:text="@string/main_category2_item2"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:text="@string/main_category2_item2" />
             </TableRow>
 
             <TableRow
@@ -173,8 +168,7 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i01"
-                    android:text="@string/main_category2_item3"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:text="@string/main_category2_item3" />
 
                 <TextView
                     style="@style/image_text"
@@ -182,8 +176,7 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i02"
-                    android:text="@string/main_category2_item4"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:text="@string/main_category2_item4" />
             </TableRow>
         </TableLayout>
 
@@ -197,8 +190,8 @@
             android:background="@drawable/gradient3">
 
             <ImageView
-                style="@style/category_image"
                 android:id="@+id/imageViewCategory3"
+                style="@style/category_image"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
@@ -223,7 +216,8 @@
 
             <TableRow
                 android:layout_width="0dp"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:paddingBottom="4sp">
 
                 <TextView
                     style="@style/image_text"
@@ -231,8 +225,7 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i01"
-                    android:text="@string/main_category3_item1"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:text="@string/main_category3_item1" />
 
                 <TextView
                     style="@style/image_text"
@@ -240,8 +233,29 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i02"
-                    android:text="@string/main_category3_item2"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:text="@string/main_category3_item2" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4sp">
+
+                <TextView
+                    style="@style/image_text"
+                    android:layout_width="0dp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="start"
+                    android:background="@drawable/c01i01"
+                    android:text="@string/main_category3_item3" />
+
+                <TextView
+                    style="@style/image_text"
+                    android:layout_width="0dp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="start"
+                    android:background="@drawable/c01i02"
+                    android:text="@string/main_category3_item4" />
             </TableRow>
 
             <TableRow
@@ -254,8 +268,7 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i01"
-                    android:text="@string/main_category3_item3"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:text="@string/main_category3_item5" />
 
                 <TextView
                     style="@style/image_text"
@@ -263,31 +276,7 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i02"
-                    android:text="@string/main_category3_item4"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="0dp"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    style="@style/image_text"
-                    android:layout_width="0dp"
-                    android:layout_height="150sp"
-                    android:layout_gravity="start"
-                    android:background="@drawable/c01i01"
-                    android:text="@string/main_category3_item5"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
-
-                <TextView
-                    style="@style/image_text"
-                    android:layout_width="0dp"
-                    android:layout_height="150sp"
-                    android:layout_gravity="start"
-                    android:background="@drawable/c01i02"
-                    android:text="@string/main_category3_item6"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:text="@string/main_category3_item6" />
             </TableRow>
         </TableLayout>
 
@@ -301,8 +290,8 @@
             android:background="@drawable/gradient4">
 
             <ImageView
-                style="@style/category_image"
                 android:id="@+id/imageViewCategory4"
+                style="@style/category_image"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
@@ -327,7 +316,8 @@
 
             <TableRow
                 android:layout_width="0dp"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:paddingBottom="4sp">
 
                 <TextView
                     style="@style/image_text"
@@ -335,8 +325,7 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i01"
-                    android:text="@string/main_category4_item1"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:text="@string/main_category4_item1" />
 
                 <TextView
                     style="@style/image_text"
@@ -344,8 +333,29 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i02"
-                    android:text="@string/main_category4_item2"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:text="@string/main_category4_item2" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4sp">
+
+                <TextView
+                    style="@style/image_text"
+                    android:layout_width="0dp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="start"
+                    android:background="@drawable/c01i01"
+                    android:text="@string/main_category4_item3" />
+
+                <TextView
+                    style="@style/image_text"
+                    android:layout_width="0dp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="start"
+                    android:background="@drawable/c01i02"
+                    android:text="@string/main_category4_item4" />
             </TableRow>
 
             <TableRow
@@ -358,39 +368,15 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i01"
-                    android:text="@string/main_category4_item3"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
-
-                <TextView
-                    style="@style/image_text"
-                    android:layout_width="0dp"
-                    android:layout_height="150sp"
-                    android:layout_gravity="start"
-                    android:background="@drawable/c01i02"
-                    android:text="@string/main_category4_item4"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="0dp"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    style="@style/image_text"
-                    android:layout_width="0dp"
-                    android:layout_height="150sp"
-                    android:layout_gravity="start"
-                    android:background="@drawable/c01i01"
-                    android:text="@string/main_category4_item5"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:text="@string/main_category4_item5" />
             </TableRow>
         </TableLayout>
 
         <Button
+            style="@style/button"
             android:id="@+id/buttonShare"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/share"
-            android:layout_gravity="center_horizontal" />
+            android:text="@string/share" />
     </LinearLayout>
 </ScrollView>

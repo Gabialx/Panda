@@ -21,6 +21,7 @@
     <style name="category_layout">
         <item name="android:padding">8sp</item>
         <item name="android:layout_marginBottom">8sp</item>
+        <item name="android:layout_marginTop">4sp</item>
     </style>
 
     <style name="category_image"/>
@@ -42,7 +43,12 @@
         <item name="android:gravity">bottom</item>
     </style>
 
-
+    <style name="button">
+        <item name="android:colorButtonNormal">#2196F3</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:padding">6sp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
 
 
     <style name="image">
