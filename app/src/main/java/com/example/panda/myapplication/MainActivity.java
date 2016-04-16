@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                     // horizontal swipe
                 } else {
                     // vertical swipe
-                    linearLayout.scrollBy(0, sign(dynamicY, currentY) * Math.round(deltaY));
+                    linearLayout.scrollBy(0, sign(dynamicY, currentY) * Math.round(deltaY) / 11);
                     return super.dispatchTouchEvent(touchevent);
                 }
 

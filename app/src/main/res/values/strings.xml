@@ -1,7 +1,14 @@
 <resources>
-<string name="app_name">Visit Vratsa</string>
+    <string name="app_name">Visit Vratsa</string>
 
-<string name="main_title">This is Vratsa</string>
-<string name="main_subtitle">Vratsa is a city in northwestern Bulgaria, at the foothills of the Balkan Mountains.</string>
-<string name="main_mainImageContentDescription">Panorama view of Vratsa</string>
+    <string name="main_title">This is Vratsa</string>
+    <string name="main_subtitle">Vratsa is a city in northwestern Bulgaria, at the foothills of the Balkan Mountains.</string>
+    <string name="main_mainImageContentDescription">Panorama view of Vratsa</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="main_category_seeAndDo">See &amp; Do</string>
+    <string name="main_category_eatAndDrink">Eat &amp; Drink</string>
 </resources>

@@ -6,83 +6,40 @@
     android:orientation="vertical"
     tools:context="com.example.panda.myapplication.MainActivity">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clipToPadding="false"
-        android:orientation="vertical"
-        android:paddingBottom="@dimen/activity_vertical_margin"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_height="wrap_content">
 
-        tools:context="com.example.panda.myapplication.MainActivity">
-
-
-
-
-
-        <ViewFlipper
-            android:id="@+id/viewFlipper"
+        <LinearLayout
+            android:id="@+id/linearLayoutPage1"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+
+            tools:context="com.example.panda.myapplication.MainActivity">
+
+            <TextView
+                style="@style/subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/main_subtitle" />
 
             <LinearLayout
                 style="@style/composition"
-                android:id="@+id/linearLayoutPage1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:clipToPadding="false"
                 android:elevation="10sp"
                 android:orientation="vertical">
-
-                <TextView
-                    style="@style/subtitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/main_subtitle" />
-
-                <TextView
-                    style="@style/caption"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/main_mainImageContentDescription" />
-
-
-                <ImageView
-                    android:id="@+id/imageView"
-                    style="@style/image"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="true"
-                    android:contentDescription="@string/main_mainImageContentDescription"
-                    android:elevation="40sp"
-                    android:scaleType="fitCenter"
-                    android:src="@drawable/main" />
-
-                <ImageView
-                    android:id="@+id/imageView7"
-                    style="@style/image"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="true"
-                    android:contentDescription="@string/main_mainImageContentDescription"
-                    android:elevation="40sp"
-                    android:scaleType="fitCenter"
-                    android:src="@drawable/main2" />
-
-
-                <ImageView
-                    android:id="@+id/imageView1"
-                    style="@style/image"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="true"
-                    android:contentDescription="@string/main_mainImageContentDescription"
-                    android:elevation="40sp"
-                    android:scaleType="fitCenter"
-                    android:src="@drawable/main" />
 
                 <ImageView
                     android:id="@+id/imageView2"
@@ -91,29 +48,40 @@
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:contentDescription="@string/main_mainImageContentDescription"
-                    android:elevation="40sp"
                     android:scaleType="fitCenter"
                     android:src="@drawable/main" />
-
-            </LinearLayout>
-
-
-            <LinearLayout
-                style="@style/composition"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:clipToPadding="false"
-                android:elevation="10sp"
-                android:orientation="vertical">
 
                 <TextView
                     style="@style/caption"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="test" />
+                    android:text="@string/main_mainImageContentDescription" />
+
             </LinearLayout>
-        </ViewFlipper>
-    </LinearLayout>
+
+            <TextView
+                style="@style/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/main_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/composition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:elevation="10sp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/caption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="test" />
+        </LinearLayout>
+    </ViewFlipper>
+
 </ScrollView>
 
 
