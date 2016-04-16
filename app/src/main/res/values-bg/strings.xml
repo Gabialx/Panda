@@ -11,6 +11,29 @@
     <string name="main_category3">Транспорт</string>
     <string name="main_category4">Полезно</string>
 
+    <string name="main_category1_item1">История</string>
+    <string name="main_category1_item2">Природа</string>
+    <string name="main_category1_item3">На близо</string>
+    <string name="main_category1_item4">Забавление</string>
+
+    <string name="main_category2_item1">Кафенета</string>
+    <string name="main_category2_item2">Ресторанти</string>
+    <string name="main_category2_item3">Хотели</string>
+    <string name="main_category2_item4">Нощен живот</string>
+
+    <string name="main_category3_item1">Автобуси</string>
+    <string name="main_category3_item2">Влакове</string>
+    <string name="main_category3_item3">Таксита</string>
+    <string name="main_category3_item4">Коли под наем</string>
+    <string name="main_category3_item5">Маршрутки</string>
+    <string name="main_category3_item6">Тролейбуси</string>
+
+    <string name="main_category4_item1">Спешна помощ</string>
+    <string name="main_category4_item2">Места с Wi-Fi</string>
+    <string name="main_category4_item3">Магазини</string>
+    <string name="main_category4_item4">Община Враца</string>
+    <string name="main_category4_item5">Природен парк</string>
+
     <string name="share">Сподели своята Враца</string>
 
 </resources>

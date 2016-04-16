@@ -2,6 +2,7 @@
 <resources>
 
     <style name="title">
+        <item name="android:fontFamily">sans-serif-thin</item>
         <item name="android:textAlignment">textEnd</item>
         <item name="android:textSize">24sp</item>
         <item name="android:textStyle">italic</item>
@@ -22,18 +23,24 @@
         <item name="android:layout_marginBottom">8sp</item>
     </style>
 
-    <style name="category_image">
-    </style>
+    <style name="category_image"/>
 
     <style name="category_text">
         <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textStyle">italic</item>
         <item name="android:textSize">24sp</item>
-        <item name="android:layout_marginLeft">4sp</item>
-        <item name="android:layout_marginTop">4sp</item>
+        <item name="android:layout_marginLeft">8sp</item>
     </style>
 
-
+    <style name="image_text">
+        <item name="android:textColor">#EEEEEE</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">12sp</item>
+        <item name="android:layout_margin">2sp</item>
+        <item name="android:gravity">bottom</item>
+    </style>
 
 
 
@@ -57,7 +64,6 @@
         <item name="android:bottom">3sp</item>
         <item name="android:elevation">1sp</item>
     </style>
-
 
 
     <style name="caption">

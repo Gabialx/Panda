@@ -14,8 +14,28 @@
     <string name="main_category3">Transport</string>
     <string name="main_category4">Good to know</string>
 
+    <string name="main_category1_item1">History</string>
+    <string name="main_category1_item2">Nature</string>
+    <string name="main_category1_item3">Near by</string>
+    <string name="main_category1_item4">Fun</string>
 
+    <string name="main_category2_item1">Cafe</string>
+    <string name="main_category2_item2">Restaurant</string>
+    <string name="main_category2_item3">Hotels</string>
+    <string name="main_category2_item4">Nightlife</string>
 
+    <string name="main_category3_item1">Buses</string>
+    <string name="main_category3_item2">Trains</string>
+    <string name="main_category3_item3">Taxis</string>
+    <string name="main_category3_item4">Rent a car</string>
+    <string name="main_category3_item5">Shuttles</string>
+    <string name="main_category3_item6">Trolleybuses</string>
+
+    <string name="main_category4_item1">Emergency</string>
+    <string name="main_category4_item2">Places with Wi-Fi</string>
+    <string name="main_category4_item3">Shops</string>
+    <string name="main_category4_item4">Municipality</string>
+    <string name="main_category4_item5">Nature Park</string>
 
     <string name="share">Share your Vratsa</string>
 </resources>
