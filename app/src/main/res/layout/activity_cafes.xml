@@ -20,7 +20,7 @@
             style="@style/title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/main_category4_item1" />
+            android:text="@string/main_category2_item1" />
 
     </LinearLayout>
 </ScrollView>
