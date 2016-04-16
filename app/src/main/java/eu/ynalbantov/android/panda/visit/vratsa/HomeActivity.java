@@ -1,7 +1,8 @@
 package eu.ynalbantov.android.panda.visit.vratsa;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.example.panda.myapplication.R;
@@ -15,78 +16,97 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     public void onHistoryClick(View v) {
-        setContentView(R.layout.activity_history);
+        Intent intent = new Intent(HomeActivity.this, HistoryActivity.class);
+        startActivity(intent);
     }
 
     public void onNatureClick(View v) {
-        setContentView(R.layout.activity_nature);
+        Intent intent = new Intent(HomeActivity.this, NatureActivity.class);
+        startActivity(intent);
     }
 
     public void onNearByClick(View v) {
-        setContentView(R.layout.activity_nearby);
+        Intent intent = new Intent(HomeActivity.this, NearByActivity.class);
+        startActivity(intent);
     }
 
     public void onFunClick(View v) {
-        setContentView(R.layout.activity_fun);
+        Intent intent = new Intent(HomeActivity.this, FunActivity.class);
+        startActivity(intent);
     }
 
     public void onCafesClick(View v) {
-        setContentView(R.layout.activity_cafes);
+        Intent intent = new Intent(HomeActivity.this, CafesActivity.class);
+        startActivity(intent);
     }
 
     public void onRestaurantsClick(View v) {
-        setContentView(R.layout.activity_restaurants);
+        Intent intent = new Intent(HomeActivity.this, RestaurantsActivity.class);
+        startActivity(intent);
     }
 
     public void onHotelsClick(View v) {
-        setContentView(R.layout.activity_hotels);
+        Intent intent = new Intent(HomeActivity.this, HotelsActivity.class);
+        startActivity(intent);
     }
 
     public void onNightlifeClick(View v) {
-        setContentView(R.layout.activity_nightlife);
+        Intent intent = new Intent(HomeActivity.this, NightlifeActivity.class);
+        startActivity(intent);
     }
 
     public void onBusesClick(View v) {
-        setContentView(R.layout.activity_buses);
+        Intent intent = new Intent(HomeActivity.this, BusesActivity.class);
+        startActivity(intent);
     }
 
     public void onTrainsClick(View v) {
-        setContentView(R.layout.activity_trains);
+        Intent intent = new Intent(HomeActivity.this, TrainsActivity.class);
+        startActivity(intent);
     }
 
     public void onTaxisClick(View v) {
-        setContentView(R.layout.activity_taxis);
+        Intent intent = new Intent(HomeActivity.this, TaxisActivity.class);
+        startActivity(intent);
     }
 
     public void onRentClick(View v) {
-        setContentView(R.layout.activity_rent);
+        Intent intent = new Intent(HomeActivity.this, RentActivity.class);
+        startActivity(intent);
     }
 
     public void onShuttlesClick(View v) {
-        setContentView(R.layout.activity_shuttles);
+        Intent intent = new Intent(HomeActivity.this, ShuttlesActivity.class);
+        startActivity(intent);
     }
 
     public void onTrolleybusesClick(View v) {
-        setContentView(R.layout.activity_trolleybuses);
+        Intent intent = new Intent(HomeActivity.this, TrolleybusesActivity.class);
+        startActivity(intent);
     }
 
     public void onEmergencyClick(View v) {
-        setContentView(R.layout.activity_emergency);
+        Intent intent = new Intent(HomeActivity.this, EmergencyActivity.class);
+        startActivity(intent);
     }
 
     public void onWiFiClick(View v) {
-        setContentView(R.layout.activity_wifi);
+        Intent intent = new Intent(HomeActivity.this, WiFiActivity.class);
+        startActivity(intent);
     }
 
     public void onShopsClick(View v) {
-        setContentView(R.layout.activity_shops);
+        Intent intent = new Intent(HomeActivity.this, ShopsActivity.class);
+        startActivity(intent);
     }
 
     public void onMunicipalityClick(View v) {
-        setContentView(R.layout.activity_municipality);
+        Intent intent = new Intent(HomeActivity.this, MunicipalityActivity.class);
+        startActivity(intent);
     }
 
     public void onParkClick(View v) {
-        setContentView(R.layout.activity_park);
+        Intent intent = new Intent(HomeActivity.this, ParkActivity.class);
+        startActivity(intent);
     }
 }

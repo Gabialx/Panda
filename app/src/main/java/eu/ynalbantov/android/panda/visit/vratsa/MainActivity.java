@@ -3,7 +3,6 @@ package eu.ynalbantov.android.panda.visit.vratsa;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MotionEvent;
-import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.ViewFlipper;
 

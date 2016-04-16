@@ -8,15 +8,31 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.MainActivity">
-
-        </activity>
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.MainActivity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.BusesActivity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.CafesActivity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.EmergencyActivity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.FunActivity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.HistoryActivity" />
         <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            </activity>
+        </activity>
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.HotelsActivity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.MunicipalityActivity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.NatureActivity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.NearByActivity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.NightlifeActivity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.ParkActivity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.RentActivity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.RestaurantsActivity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.ShopsActivity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.ShuttlesActivity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.TaxisActivity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.TrainsActivity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.TrolleybusesActivity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.WiFiActivity" />
     </application>
-
 </manifest>
