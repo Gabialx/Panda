@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="eu.ynalbantov.android.panda.visit.vratsa.Home">
+    tools:context="eu.ynalbantov.android.panda.visit.vratsa.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -47,8 +47,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_toEndOf="@id/imageViewCategory1"
-                android:text="@string/main_category1"
-                android:textAppearance="?android:attr/textAppearanceMedium" />
+                android:text="@string/main_category1" />
         </RelativeLayout>
 
         <TableLayout
@@ -67,6 +66,8 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i01"
+                    android:clickable="true"
+                    android:onClick="onHistoryClick"
                     android:text="@string/main_category1_item1" />
 
                 <TextView
@@ -75,6 +76,8 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i02"
+                    android:clickable="true"
+                    android:onClick="onNatureClick"
                     android:text="@string/main_category1_item2" />
             </TableRow>
 
@@ -88,6 +91,8 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i01"
+                    android:clickable="true"
+                    android:onClick="onNearByClick"
                     android:text="@string/main_category1_item3" />
 
                 <TextView
@@ -96,10 +101,10 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i02"
+                    android:clickable="true"
+                    android:onClick="onFunClick"
                     android:text="@string/main_category1_item4" />
             </TableRow>
-
-
         </TableLayout>
 
         <RelativeLayout
@@ -127,8 +132,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_toEndOf="@id/imageViewCategory2"
-                android:text="@string/main_category2"
-                android:textAppearance="?android:attr/textAppearanceMedium" />
+                android:text="@string/main_category2" />
         </RelativeLayout>
 
         <TableLayout
@@ -147,6 +151,8 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i01"
+                    android:clickable="true"
+                    android:onClick="onCafesClick"
                     android:text="@string/main_category2_item1" />
 
                 <TextView
@@ -155,6 +161,8 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i02"
+                    android:clickable="true"
+                    android:onClick="onRestaurantsClick"
                     android:text="@string/main_category2_item2" />
             </TableRow>
 
@@ -168,6 +176,8 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i01"
+                    android:clickable="true"
+                    android:onClick="onHotelsClick"
                     android:text="@string/main_category2_item3" />
 
                 <TextView
@@ -176,6 +186,8 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i02"
+                    android:clickable="true"
+                    android:onClick="onNightlifeClick"
                     android:text="@string/main_category2_item4" />
             </TableRow>
         </TableLayout>
@@ -205,8 +217,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_toEndOf="@id/imageViewCategory3"
-                android:text="@string/main_category3"
-                android:textAppearance="?android:attr/textAppearanceMedium" />
+                android:text="@string/main_category3" />
         </RelativeLayout>
 
         <TableLayout
@@ -225,6 +236,8 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i01"
+                    android:clickable="true"
+                    android:onClick="onBusesClick"
                     android:text="@string/main_category3_item1" />
 
                 <TextView
@@ -233,6 +246,8 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i02"
+                    android:clickable="true"
+                    android:onClick="onTrainsClick"
                     android:text="@string/main_category3_item2" />
             </TableRow>
 
@@ -247,6 +262,8 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i01"
+                    android:clickable="true"
+                    android:onClick="onTaxisClick"
                     android:text="@string/main_category3_item3" />
 
                 <TextView
@@ -255,6 +272,8 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i02"
+                    android:clickable="true"
+                    android:onClick="onRentClick"
                     android:text="@string/main_category3_item4" />
             </TableRow>
 
@@ -268,6 +287,8 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i01"
+                    android:clickable="true"
+                    android:onClick="onShuttlesClick"
                     android:text="@string/main_category3_item5" />
 
                 <TextView
@@ -276,6 +297,8 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i02"
+                    android:clickable="true"
+                    android:onClick="onTrolleybusesClick"
                     android:text="@string/main_category3_item6" />
             </TableRow>
         </TableLayout>
@@ -305,8 +328,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_toEndOf="@id/imageViewCategory4"
-                android:text="@string/main_category4"
-                android:textAppearance="?android:attr/textAppearanceMedium" />
+                android:text="@string/main_category4" />
         </RelativeLayout>
 
         <TableLayout
@@ -325,6 +347,8 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i01"
+                    android:clickable="true"
+                    android:onClick="onEmergencyClick"
                     android:text="@string/main_category4_item1" />
 
                 <TextView
@@ -333,6 +357,8 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i02"
+                    android:clickable="true"
+                    android:onClick="onWiFiClick"
                     android:text="@string/main_category4_item2" />
             </TableRow>
 
@@ -347,6 +373,8 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i01"
+                    android:clickable="true"
+                    android:onClick="onShopsClick"
                     android:text="@string/main_category4_item3" />
 
                 <TextView
@@ -355,6 +383,8 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i02"
+                    android:clickable="true"
+                    android:onClick="onMunicipalityClick"
                     android:text="@string/main_category4_item4" />
             </TableRow>
 
@@ -368,16 +398,18 @@
                     android:layout_height="150sp"
                     android:layout_gravity="start"
                     android:background="@drawable/c01i01"
+                    android:clickable="true"
+                    android:onClick="onParkClick"
                     android:text="@string/main_category4_item5" />
             </TableRow>
         </TableLayout>
 
         <Button
-            style="@style/button"
-            android:layout_marginTop="8sp"
             android:id="@+id/buttonShare"
+            style="@style/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
             android:text="@string/share" />
     </LinearLayout>
 </ScrollView>

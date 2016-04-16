@@ -1,10 +1,13 @@
-package com.example.panda.myapplication;
+package eu.ynalbantov.android.panda.visit.vratsa;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MotionEvent;
+import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.ViewFlipper;
+
+import com.example.panda.myapplication.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -112,4 +115,6 @@ public class MainActivity extends AppCompatActivity {
     public float delta(float last, float current) {
         return last < current ? current - last : last - current;
     }
+
+
 }
