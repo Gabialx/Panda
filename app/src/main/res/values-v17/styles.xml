@@ -2,10 +2,8 @@
 <resources>
 
     <style name="category_layout">
-        <item name="android:background">#777777</item>
         <item name="android:padding">8sp</item>
-
-        <item name="android:strokeWidth">1sp</item>
+        <item name="android:layout_marginBottom">8sp</item>
         <!--<item name="android:layout_margin">8sp</item>-->
     </style>
 
