@@ -90,7 +90,7 @@
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="start"
-                    android:background="@drawable/c01i01"
+                    android:background="@drawable/c01i03"
                     android:clickable="true"
                     android:onClick="onNearByClick"
                     android:text="@string/main_category1_item3" />
@@ -100,7 +100,7 @@
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="start"
-                    android:background="@drawable/c01i02"
+                    android:background="@drawable/c01i04"
                     android:clickable="true"
                     android:onClick="onFunClick"
                     android:text="@string/main_category1_item4" />
@@ -150,7 +150,7 @@
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="start"
-                    android:background="@drawable/c01i01"
+                    android:background="@drawable/c02i01"
                     android:clickable="true"
                     android:onClick="onCafesClick"
                     android:text="@string/main_category2_item1" />
@@ -160,7 +160,7 @@
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="start"
-                    android:background="@drawable/c01i02"
+                    android:background="@drawable/c02i02"
                     android:clickable="true"
                     android:onClick="onRestaurantsClick"
                     android:text="@string/main_category2_item2" />
@@ -175,7 +175,7 @@
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="start"
-                    android:background="@drawable/c01i01"
+                    android:background="@drawable/c02i03"
                     android:clickable="true"
                     android:onClick="onHotelsClick"
                     android:text="@string/main_category2_item3" />
@@ -185,7 +185,7 @@
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="start"
-                    android:background="@drawable/c01i02"
+                    android:background="@drawable/c02i04"
                     android:clickable="true"
                     android:onClick="onNightlifeClick"
                     android:text="@string/main_category2_item4" />
@@ -235,7 +235,7 @@
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="start"
-                    android:background="@drawable/c01i01"
+                    android:background="@drawable/c03i01"
                     android:clickable="true"
                     android:onClick="onBusesClick"
                     android:text="@string/main_category3_item1" />
@@ -245,7 +245,7 @@
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="start"
-                    android:background="@drawable/c01i02"
+                    android:background="@drawable/c03i02"
                     android:clickable="true"
                     android:onClick="onTrainsClick"
                     android:text="@string/main_category3_item2" />
@@ -261,7 +261,7 @@
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="start"
-                    android:background="@drawable/c01i01"
+                    android:background="@drawable/c03i03"
                     android:clickable="true"
                     android:onClick="onTaxisClick"
                     android:text="@string/main_category3_item3" />
@@ -271,7 +271,7 @@
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="start"
-                    android:background="@drawable/c01i02"
+                    android:background="@drawable/c03i04"
                     android:clickable="true"
                     android:onClick="onRentClick"
                     android:text="@string/main_category3_item4" />
@@ -286,7 +286,7 @@
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="start"
-                    android:background="@drawable/c01i01"
+                    android:background="@drawable/c03i05"
                     android:clickable="true"
                     android:onClick="onShuttlesClick"
                     android:text="@string/main_category3_item5" />
@@ -296,7 +296,7 @@
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="start"
-                    android:background="@drawable/c01i02"
+                    android:background="@drawable/c03i06"
                     android:clickable="true"
                     android:onClick="onTrolleybusesClick"
                     android:text="@string/main_category3_item6" />
@@ -346,7 +346,7 @@
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="start"
-                    android:background="@drawable/c01i01"
+                    android:background="@drawable/c04i01"
                     android:clickable="true"
                     android:onClick="onEmergencyClick"
                     android:text="@string/main_category4_item1" />
@@ -356,7 +356,7 @@
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="start"
-                    android:background="@drawable/c01i02"
+                    android:background="@drawable/c04i02"
                     android:clickable="true"
                     android:onClick="onWiFiClick"
                     android:text="@string/main_category4_item2" />
@@ -372,7 +372,7 @@
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="start"
-                    android:background="@drawable/c01i01"
+                    android:background="@drawable/c04i03"
                     android:clickable="true"
                     android:onClick="onShopsClick"
                     android:text="@string/main_category4_item3" />
@@ -382,7 +382,7 @@
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="start"
-                    android:background="@drawable/c01i02"
+                    android:background="@drawable/c04i04"
                     android:clickable="true"
                     android:onClick="onMunicipalityClick"
                     android:text="@string/main_category4_item4" />
@@ -397,7 +397,7 @@
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="start"
-                    android:background="@drawable/c01i01"
+                    android:background="@drawable/c04i05"
                     android:clickable="true"
                     android:onClick="onParkClick"
                     android:text="@string/main_category4_item5" />
