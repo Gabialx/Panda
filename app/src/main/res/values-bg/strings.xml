@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Посети Враца</string>
+    <string name="main_mainImageContentDescription">Панорамен изглед на Враца</string>
+    <string name="main_title">Това е Враца</string>
+    <string name="main_subtitle">Враца е град в северозападна България, в подножието на Стара Планина.</string>
+</resources>

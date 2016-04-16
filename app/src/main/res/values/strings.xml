@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Visit Vratsa</string>
+<string name="app_name">Visit Vratsa</string>
+
+<string name="main_title">This is Vratsa</string>
+<string name="main_subtitle">Vratsa is a city in northwestern Bulgaria, at the foothills of the Balkan Mountains.</string>
+<string name="main_mainImageContentDescription">Panorama view of Vratsa</string>
 </resources>
