@@ -6,7 +6,11 @@
     <string name="main_subtitle">Враца Град като Балкана – древен и млад. \nПосетете най-хубавия град в България.</string>
     <string name="main_text">Враца е най-големия град в Северозападна България, административен и стопански център. Намира се на 110 км. от София – столицата на България. \nРазположен в подножието на Врачанския Балкан – градът е отправна точка към множество пещери, водопади и интересни скални образувания. \nНай-известните сред тях са Пещарата Леденика, водопа Скакля и прохода Врацата.....</string>
 
-    <string name="main_category_seeAndDo">See &amp; Do</string>
-    <string name="main_category_eatAndDrink">Eat &amp; Drink</string>
+    <string name="main_category1">Виж и посети</string>
+    <string name="main_category2">Заведения и хотели</string>
+    <string name="main_category3">Транспорт</string>
+    <string name="main_category4">Полезно</string>
+
+    <string name="share">Сподели своята Враца</string>
 
 </resources>

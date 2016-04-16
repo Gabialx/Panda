@@ -9,6 +9,13 @@
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_home">Home</string>
 
-    <string name="main_category_seeAndDo">See &amp; Do</string>
-    <string name="main_category_eatAndDrink">Eat &amp; Drink</string>
+    <string name="main_category1">See &amp; Do</string>
+    <string name="main_category2">Eat, Drink &amp; Stay</string>
+    <string name="main_category3">Transport</string>
+    <string name="main_category4">Good to know</string>
+
+
+
+
+    <string name="share">Share your Vratsa</string>
 </resources>

@@ -1,7 +1,6 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
     <gradient
-        android:startColor="#33DE51"
-        android:endColor="#DE33AD"
-        />
+        android:endColor="#33A1DE"
+        android:startColor="#DE9333" />
 </shape>

@@ -30,27 +30,121 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
-            android:background="@drawable/category1">
+            android:background="@drawable/gradient1">
 
             <ImageView
-                android:id="@+id/imageViewSeeAndDo"
-                style="@style/image"
+                android:id="@+id/imageViewCategory1"
+                style="@style/category_image"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/see_do" />
+                android:src="@drawable/icon1" />
 
             <TextView
-                android:id="@+id/textViewSeeAndDo"
+                android:id="@+id/textViewCategory1"
                 style="@style/category_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:layout_toEndOf="@id/imageViewSeeAndDo"
-                android:text="@string/main_category_seeAndDo"
+                android:layout_toEndOf="@id/imageViewCategory1"
+                android:text="@string/main_category1"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
         </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/category_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/gradient2">
+
+            <ImageView
+                style="@style/category_image"
+                android:id="@+id/imageViewCategory2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/icon2" />
+
+            <TextView
+                style="@style/category_text"
+                android:id="@+id/textViewCategory2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_toEndOf="@id/imageViewCategory2"
+                android:text="@string/main_category2"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/category_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/gradient3">
+
+            <ImageView
+                style="@style/category_image"
+                android:id="@+id/imageViewCategory3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/icon3" />
+
+            <TextView
+                android:id="@+id/textViewCategory3"
+                style="@style/category_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_toEndOf="@id/imageViewCategory3"
+                android:text="@string/main_category3"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/category_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/gradient4">
+
+            <ImageView
+                style="@style/category_image"
+                android:id="@+id/imageViewCategory4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/icon4" />
+
+            <TextView
+                android:id="@+id/textViewCategory4"
+                style="@style/category_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_toEndOf="@id/imageViewCategory4"
+                android:text="@string/main_category4"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/buttonShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/share"
+            android:layout_gravity="center_horizontal" />
 
         <TableLayout
             android:layout_width="match_parent"
@@ -66,8 +160,8 @@
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="start"
-                    android:background="@drawable/main"
-                    android:text="@string/main_category_seeAndDo"
+                    android:background="@drawable/c01i01"
+                    android:text="@string/main_category1"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
                 <TextView
@@ -75,8 +169,8 @@
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="start"
-                    android:background="@drawable/main2"
-                    android:text="@string/main_category_seeAndDo"
+                    android:background="@drawable/c01i02"
+                    android:text="@string/main_category1"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
             </TableRow>
 
@@ -89,14 +183,14 @@
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="start"
-                    android:src="@drawable/main" />
+                    android:src="@drawable/c01i01" />
 
                 <ImageView
                     style="@style/image"
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="end"
-                    android:src="@drawable/main2" />
+                    android:src="@drawable/c01i02" />
             </TableRow>
 
             <TableRow
@@ -108,14 +202,14 @@
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="start"
-                    android:src="@drawable/main" />
+                    android:src="@drawable/c01i01" />
 
                 <ImageView
                     style="@style/image"
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="end"
-                    android:src="@drawable/main2" />
+                    android:src="@drawable/c01i02" />
             </TableRow>
 
             <TableRow
@@ -127,14 +221,14 @@
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="start"
-                    android:src="@drawable/main" />
+                    android:src="@drawable/c01i01" />
 
                 <ImageView
                     style="@style/image"
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="end"
-                    android:src="@drawable/main2" />
+                    android:src="@drawable/c01i02" />
             </TableRow>
         </TableLayout>
 
@@ -144,7 +238,7 @@
             android:id="@+id/textViewEatAndDrink"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/main_category_eatAndDrink"
+            android:text="@string/main_category1"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <TableLayout
@@ -161,14 +255,14 @@
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="start"
-                    android:src="@drawable/main" />
+                    android:src="@drawable/c01i01" />
 
                 <ImageView
                     style="@style/image"
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="end"
-                    android:src="@drawable/main2" />
+                    android:src="@drawable/c01i02" />
             </TableRow>
 
             <TableRow
@@ -180,14 +274,14 @@
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="start"
-                    android:src="@drawable/main" />
+                    android:src="@drawable/c01i01" />
 
                 <ImageView
                     style="@style/image"
                     android:layout_width="0dp"
                     android:layout_height="150sp"
                     android:layout_gravity="end"
-                    android:src="@drawable/main2" />
+                    android:src="@drawable/c01i02" />
             </TableRow>
         </TableLayout>
     </LinearLayout>
