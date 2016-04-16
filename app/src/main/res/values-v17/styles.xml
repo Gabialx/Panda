@@ -1,25 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="category_layout">
-        <item name="android:padding">8sp</item>
-        <item name="android:layout_marginBottom">8sp</item>
-        <!--<item name="android:layout_margin">8sp</item>-->
-    </style>
-
-    <style name="category_image">
-    </style>
-
-    <style name="category_text">
-        <!--<item name="android:background">#FFFFFF</item>-->
-        <item name="android:fontFamily">sans-serif-light</item>
-        <item name="android:textStyle">italic</item>
+    <style name="title">
+        <item name="android:textAlignment">textEnd</item>
         <item name="android:textSize">24sp</item>
-        <item name="android:layout_marginTop">4sp</item>
-    </style>
-
-    <style name="image">
-        <item name="android:padding">4sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:padding">8sp</item>
     </style>
 
     <style name="subtitle">
@@ -27,6 +14,30 @@
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/colorAccent</item>
         <item name="android:padding">8sp</item>
+    </style>
+
+    <style name="category_layout">
+        <item name="android:padding">8sp</item>
+        <item name="android:layout_marginBottom">8sp</item>
+    </style>
+
+    <style name="category_image">
+    </style>
+
+    <style name="category_text">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_marginTop">4sp</item>
+    </style>
+
+
+
+
+
+
+    <style name="image">
+        <item name="android:padding">4sp</item>
     </style>
 
     <style name="text">
