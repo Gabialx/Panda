@@ -35,5 +35,26 @@
             android:layout_height="wrap_content"
             android:text="@string/main_category3_item1_details"
             android:id="@+id/textView" />
-    </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView1"
+            android:adjustViewBounds="true"
+            android:src="@drawable/c03s01i01"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:adjustViewBounds="true"
+            android:src="@drawable/c03s01i02"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:adjustViewBounds="true"
+            android:src="@drawable/c03s01i03"/>
+</LinearLayout>
 </ScrollView>
