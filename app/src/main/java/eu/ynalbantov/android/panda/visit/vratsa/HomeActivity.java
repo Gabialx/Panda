@@ -16,97 +16,97 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     public void onHistoryClick(View v) {
-        Intent intent = new Intent(HomeActivity.this, HistoryActivity.class);
+        Intent intent = new Intent(this, HistoryActivity.class);
         startActivity(intent);
     }
 
     public void onNatureClick(View v) {
-        Intent intent = new Intent(HomeActivity.this, NatureActivity.class);
+        Intent intent = new Intent(this, NatureActivity.class);
         startActivity(intent);
     }
 
     public void onNearByClick(View v) {
-        Intent intent = new Intent(HomeActivity.this, NearByActivity.class);
+        Intent intent = new Intent(this, NearByActivity.class);
         startActivity(intent);
     }
 
     public void onFunClick(View v) {
-        Intent intent = new Intent(HomeActivity.this, FunActivity.class);
+        Intent intent = new Intent(this, FunActivity.class);
         startActivity(intent);
     }
 
     public void onCafesClick(View v) {
-        Intent intent = new Intent(HomeActivity.this, CafesActivity.class);
+        Intent intent = new Intent(this, CafesActivity.class);
         startActivity(intent);
     }
 
     public void onRestaurantsClick(View v) {
-        Intent intent = new Intent(HomeActivity.this, RestaurantsActivity.class);
+        Intent intent = new Intent(this, RestaurantsActivity.class);
         startActivity(intent);
     }
 
     public void onHotelsClick(View v) {
-        Intent intent = new Intent(HomeActivity.this, HotelsActivity.class);
+        Intent intent = new Intent(this, HotelsActivity.class);
         startActivity(intent);
     }
 
     public void onNightlifeClick(View v) {
-        Intent intent = new Intent(HomeActivity.this, NightlifeActivity.class);
+        Intent intent = new Intent(this, NightlifeActivity.class);
         startActivity(intent);
     }
 
     public void onBusesClick(View v) {
-        Intent intent = new Intent(HomeActivity.this, BusesActivity.class);
+        Intent intent = new Intent(this, BusesActivity.class);
         startActivity(intent);
     }
 
     public void onTrainsClick(View v) {
-        Intent intent = new Intent(HomeActivity.this, TrainsActivity.class);
+        Intent intent = new Intent(this, TrainsActivity.class);
         startActivity(intent);
     }
 
     public void onTaxisClick(View v) {
-        Intent intent = new Intent(HomeActivity.this, TaxisActivity.class);
+        Intent intent = new Intent(this, TaxisActivity.class);
         startActivity(intent);
     }
 
     public void onRentClick(View v) {
-        Intent intent = new Intent(HomeActivity.this, RentActivity.class);
+        Intent intent = new Intent(this, RentActivity.class);
         startActivity(intent);
     }
 
     public void onShuttlesClick(View v) {
-        Intent intent = new Intent(HomeActivity.this, ShuttlesActivity.class);
+        Intent intent = new Intent(this, ShuttlesActivity.class);
         startActivity(intent);
     }
 
     public void onTrolleybusesClick(View v) {
-        Intent intent = new Intent(HomeActivity.this, TrolleybusesActivity.class);
+        Intent intent = new Intent(this, TrolleybusesActivity.class);
         startActivity(intent);
     }
 
     public void onEmergencyClick(View v) {
-        Intent intent = new Intent(HomeActivity.this, EmergencyActivity.class);
+        Intent intent = new Intent(this, EmergencyActivity.class);
         startActivity(intent);
     }
 
     public void onWiFiClick(View v) {
-        Intent intent = new Intent(HomeActivity.this, WiFiActivity.class);
+        Intent intent = new Intent(this, WiFiActivity.class);
         startActivity(intent);
     }
 
     public void onShopsClick(View v) {
-        Intent intent = new Intent(HomeActivity.this, ShopsActivity.class);
+        Intent intent = new Intent(this, ShopsActivity.class);
         startActivity(intent);
     }
 
     public void onMunicipalityClick(View v) {
-        Intent intent = new Intent(HomeActivity.this, MunicipalityActivity.class);
+        Intent intent = new Intent(this, MunicipalityActivity.class);
         startActivity(intent);
     }
 
     public void onParkClick(View v) {
-        Intent intent = new Intent(HomeActivity.this, ParkActivity.class);
+        Intent intent = new Intent(this, ParkActivity.class);
         startActivity(intent);
     }
 }
