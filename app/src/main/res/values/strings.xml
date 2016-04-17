@@ -40,8 +40,8 @@
     <string name="history_item1">Museum</string>
     <string name="history_item2">Ethnographic complex</string>
     <string name="history_item3">The hut \"Messenger\"</string>
-    <string name="history_item4">The Meshchiite's Tower</string>
-    <string name="history_item5">The Kurtpashov's tower</string>
+    <string name="history_item4">The Meshchiite tower</string>
+    <string name="history_item5">The Kurtpashov tower</string>
     <string name="history_item6">Monument of Hristo Botev</string>
 
     <string name="nature_item1">Vratitza</string>
@@ -74,8 +74,8 @@
     <string name="text_history_item1">Text about ... Museum</string>
     <string name="text_history_item2">Text about ... Ethnographic complex</string>
     <string name="text_history_item3">Text about ... The hut \"Messenger\"</string>
-    <string name="text_history_item4">Text about ... The Meshchiite's Tower</string>
-    <string name="text_history_item5">Text about ... The Kurtpashov's tower</string>
+    <string name="text_history_item4">Text about ... The Meshchiite tower</string>
+    <string name="text_history_item5">Text about ... The Kurtpashov tower</string>
     <string name="text_history_item6">Text about ... Monument of Hristo Botev</string>
 
     <string name="text_nature_item1">Text about ... Vratitza</string>
