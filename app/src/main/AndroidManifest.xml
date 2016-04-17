@@ -34,5 +34,39 @@
         <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.TrainsActivity" />
         <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.TrolleybusesActivity" />
         <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.WiFiActivity" />
+
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s01i01Activity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s01i02Activity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s01i03Activity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s01i04Activity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s01i05Activity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s01i06Activity" />
+
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s02i01Activity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s02i02Activity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s02i03Activity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s02i04Activity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s02i05Activity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s02i06Activity" />
+
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s03i01Activity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s03i02Activity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s03i03Activity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s03i04Activity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s03i05Activity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s03i06Activity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s03i07Activity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s03i08Activity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s03i09Activity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s03i10Activity" />
+
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s04i01Activity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s04i02Activity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s04i03Activity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s04i04Activity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s04i05Activity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s04i06Activity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s04i07Activity" />
+        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.c1.c01s04i08Activity" />
     </application>
 </manifest>
