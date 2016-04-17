@@ -37,5 +37,73 @@
     <string name="main_category4_item4">Municipality</string>
     <string name="main_category4_item5">Nature Park</string>
 
+    <string name="history_item1">Museum</string>
+    <string name="history_item2">Ethnographic complex</string>
+    <string name="history_item3">The hut \"Messenger\"</string>
+    <string name="history_item4">The Meshchiite's Tower</string>
+    <string name="history_item5">The Kurtpashov's tower</string>
+    <string name="history_item6">Monument of Hristo Botev</string>
+
+    <string name="nature_item1">Vratitza</string>
+    <string name="nature_item2">Ledenika cave</string>
+    <string name="nature_item3">\"Skaklia\" Waterfall</string>
+    <string name="nature_item4">Pine Stone</string>
+    <string name="nature_item5">Ponora cave</string>
+    <string name="nature_item6">God bridge</string>
+
+    <string name="nearby_item1">Okolchitsa</string>
+    <string name="nearby_item2">House-museum Grandmother Iliyca</string>
+    <string name="nearby_item3">Kaleto</string>
+    <string name="nearby_item4">Grandfather Yotso monument</string>
+    <string name="nearby_item5">Rashov Dol</string>
+    <string name="nearby_item6">Ritlite</string>
+    <string name="nearby_item7">Lakatnishki rocks</string>
+    <string name="nearby_item8">\"Saint Ivan Pusty\" monastery</string>
+    <string name="nearby_item9">Cherepish Monastery </string>
+    <string name="nearby_item10">Osenovlashki Monastery</string>
+
+    <string name="fun_item1">Cinema</string>
+    <string name="fun_item2">Theater</string>
+    <string name="fun_item3">Youth-house</string>
+    <string name="fun_item4">Library</string>
+    <string name="fun_item5">Events</string>
+    <string name="fun_item6">Attractions</string>
+    <string name="fun_item7">Ecopaths</string>
+    <string name="fun_item8">Sport</string>
+
+    <string name="text_history_item1">Text about ... Museum</string>
+    <string name="text_history_item2">Text about ... Ethnographic complex</string>
+    <string name="text_history_item3">Text about ... The hut \"Messenger\"</string>
+    <string name="text_history_item4">Text about ... The Meshchiite's Tower</string>
+    <string name="text_history_item5">Text about ... The Kurtpashov's tower</string>
+    <string name="text_history_item6">Text about ... Monument of Hristo Botev</string>
+
+    <string name="text_nature_item1">Text about ... Vratitza</string>
+    <string name="text_nature_item2">Text about ... Ledenika cave</string>
+    <string name="text_nature_item3">Text about ... \"Skaklia\" Waterfall</string>
+    <string name="text_nature_item4">Text about ... Pine Stone</string>
+    <string name="text_nature_item5">Text about ... Ponora cave</string>
+    <string name="text_nature_item6">Text about ... God bridge</string>
+
+    <string name="text_nearby_item1">Text about ... Okolchitsa</string>
+    <string name="text_nearby_item2">Text about ... House-museum Grandmother Iliyca</string>
+    <string name="text_nearby_item3">Text about ... Kaleto</string>
+    <string name="text_nearby_item4">Text about ... Grandfather Yotso monument</string>
+    <string name="text_nearby_item5">Text about ... Rashov Dol</string>
+    <string name="text_nearby_item6">Text about ... Ritlite</string>
+    <string name="text_nearby_item7">Text about ... Lakatnishki rocks</string>
+    <string name="text_nearby_item8">Text about ... \"Saint Ivan Pusty\" monastery</string>
+    <string name="text_nearby_item9">Text about ... Cherepish Monastery </string>
+    <string name="text_nearby_item10">Text about ... Osenovlashki Monastery</string>
+
+    <string name="text_fun_item1">Text about ... Cinema</string>
+    <string name="text_fun_item2">Text about ... Theater</string>
+    <string name="text_fun_item3">Text about ... Youth-house</string>
+    <string name="text_fun_item4">Text about ... Library</string>
+    <string name="text_fun_item5">Text about ... Events</string>
+    <string name="text_fun_item6">Text about ... Attractions</string>
+    <string name="text_fun_item7">Text about ... Ecopaths</string>
+    <string name="text_fun_item8">Text about ... Sport</string>
+
     <string name="share">Share your Vratsa</string>
 </resources>

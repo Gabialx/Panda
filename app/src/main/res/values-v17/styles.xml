@@ -50,9 +50,12 @@
         <item name="android:layout_gravity">center</item>
     </style>
 
-
     <style name="image">
         <item name="android:padding">4sp</item>
+    </style>
+
+    <style name="detailed_text">
+
     </style>
 
     <style name="text">

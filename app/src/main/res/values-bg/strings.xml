@@ -34,6 +34,74 @@
     <string name="main_category4_item4">Община Враца</string>
     <string name="main_category4_item5">Природен парк</string>
 
+    <string name="history_item1">Музей</string>
+    <string name="history_item2">Етнографски комплекс</string>
+    <string name="history_item3">Хижа „Вестител“</string>
+    <string name="history_item4">Кула на Мешчиите</string>
+    <string name="history_item5">Куртпашова кула</string>
+    <string name="history_item6">Паметник на Христо Ботев</string>
+
+    <string name="nature_item1">Вратица</string>
+    <string name="nature_item2">Пещерата Леденика</string>
+    <string name="nature_item3">Водопад Скакля</string>
+    <string name="nature_item4">Боров камък</string>
+    <string name="nature_item5">Понор</string>
+    <string name="nature_item6">Божи мост</string>
+
+    <string name="nearby_item1">Околчица</string>
+    <string name="nearby_item2">Къщата-музей на Баба Илийца</string>
+    <string name="nearby_item3">Калето</string>
+    <string name="nearby_item4">Дядо Йоцо гледа</string>
+    <string name="nearby_item5">Местност Рашов дол</string>
+    <string name="nearby_item6">Ритлите</string>
+    <string name="nearby_item7">Лакатнишки скали</string>
+    <string name="nearby_item8">Манастир Св. Иван Пусти</string>
+    <string name="nearby_item9">Черепишки Манастир</string>
+    <string name="nearby_item10">Осеновлашки манастир</string>
+
+    <string name="fun_item1">Кино</string>
+    <string name="fun_item2">Театър</string>
+    <string name="fun_item3">Младежки дом</string>
+    <string name="fun_item4">Библиотека</string>
+    <string name="fun_item5">Събития</string>
+    <string name="fun_item6">Атракции</string>
+    <string name="fun_item7">Пътеки</string>
+    <string name="fun_item8">Спорт</string>
+
+    <string name="text_history_item1">Text about ... Museum</string>
+    <string name="text_history_item2">Text about ... Ethnographic complex</string>
+    <string name="text_history_item3">Text about ... The hut \"Messenger\"</string>
+    <string name="text_history_item4">Text about ... The Meshchiite's Tower</string>
+    <string name="text_history_item5">Text about ... The Kurtpashov's tower</string>
+    <string name="text_history_item6">Text about ... Monument of Hristo Botev</string>
+
+    <string name="text_nature_item1">Text about ... Vratitza</string>
+    <string name="text_nature_item2">Text about ... Ledenika cave</string>
+    <string name="text_nature_item3">Text about ... \"Skaklia\" Waterfall</string>
+    <string name="text_nature_item4">Text about ... Pine Stone</string>
+    <string name="text_nature_item5">Text about ... Ponora cave</string>
+    <string name="text_nature_item6">Text about ... God bridge</string>
+
+    <string name="text_nearby_item1">Text about ... Okolchitsa</string>
+    <string name="text_nearby_item2">Text about ... House-museum Grandmother Iliyca</string>
+    <string name="text_nearby_item3">Text about ... Kaleto</string>
+    <string name="text_nearby_item4">Text about ... Grandfather Yotso monument</string>
+    <string name="text_nearby_item5">Text about ... Rashov Dol</string>
+    <string name="text_nearby_item6">Text about ... Ritlite</string>
+    <string name="text_nearby_item7">Text about ... Lakatnishki rocks</string>
+    <string name="text_nearby_item8">Text about ... \"Saint Ivan Pusty\" monastery</string>
+    <string name="text_nearby_item9">Text about ... Cherepish Monastery </string>
+    <string name="text_nearby_item10">Text about ... Osenovlashki Monastery</string>
+
+    <string name="text_fun_item1">Text about ... Cinema</string>
+    <string name="text_fun_item2">Text about ... Theater</string>
+    <string name="text_fun_item3">Text about ... Youth-house</string>
+    <string name="text_fun_item4">Text about ... Library</string>
+    <string name="text_fun_item5">Text about ... Events</string>
+    <string name="text_fun_item6">Text about ... Attractions</string>
+    <string name="text_fun_item7">Text about ... Ecopaths</string>
+    <string name="text_fun_item8">Text about ... Sport</string>
+
     <string name="share">Сподели своята Враца</string>
 
 </resources>
