@@ -22,5 +22,18 @@
             android:layout_height="wrap_content"
             android:text="@string/main_category2_item4" />
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:adjustViewBounds="true"
+            android:src="@drawable/c02i04"/>
+
+        <TextView
+            style="@style/detailed_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_category2_item4_details"
+            android:id="@+id/textView" />
     </LinearLayout>
 </ScrollView>

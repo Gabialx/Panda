@@ -34,6 +34,24 @@
     <string name="main_category4_item4">Община Враца</string>
     <string name="main_category4_item5">Природен парк</string>
 
+    <string name="main_category2_item1_details">Кафенета</string>
+    <string name="main_category2_item2_details">Ресторанти</string>
+    <string name="main_category2_item3_details">Хотели</string>
+    <string name="main_category2_item4_details">Нощен живот</string>
+
+    <string name="main_category3_item1_details">Автобуси</string>
+    <string name="main_category3_item2_details">Влакове</string>
+    <string name="main_category3_item3_details">Таксита</string>
+    <string name="main_category3_item4_details">Коли под наем</string>
+    <string name="main_category3_item5_details">Маршрутки</string>
+    <string name="main_category3_item6_details">Тролейбуси</string>
+
+    <string name="main_category4_item1_details">Спешна помощ</string>
+    <string name="main_category4_item2_details">Места с Wi-Fi</string>
+    <string name="main_category4_item3_details">Магазини</string>
+    <string name="main_category4_item4_details">Община Враца</string>
+    <string name="main_category4_item5_details">Природен парк</string>
+
     <string name="history_item1">Музей</string>
     <string name="history_item2">Етнографски комплекс</string>
     <string name="history_item3">Хижа „Вестител“</string>

@@ -37,6 +37,24 @@
     <string name="main_category4_item4">Municipality</string>
     <string name="main_category4_item5">Nature Park</string>
 
+    <string name="main_category2_item1_details">Cafes</string>
+    <string name="main_category2_item2_details">Restaurants</string>
+    <string name="main_category2_item3_details">Hotels</string>
+    <string name="main_category2_item4_details">Nightlife</string>
+
+    <string name="main_category3_item1_details">Buses</string>
+    <string name="main_category3_item2_details">Trains</string>
+    <string name="main_category3_item3_details">Taxis</string>
+    <string name="main_category3_item4_details">Rent a car</string>
+    <string name="main_category3_item5_details">Shuttles</string>
+    <string name="main_category3_item6_details">Trolleybuses</string>
+
+    <string name="main_category4_item1_details">Emergency</string>
+    <string name="main_category4_item2_details">Places with Wi-Fi</string>
+    <string name="main_category4_item3_details">Shops</string>
+    <string name="main_category4_item4_details">Municipality</string>
+    <string name="main_category4_item5_details">Nature Park</string>
+
     <string name="history_item1">Museum</string>
     <string name="history_item2">Ethnographic complex</string>
     <string name="history_item3">The hut \"Messenger\"</string>
