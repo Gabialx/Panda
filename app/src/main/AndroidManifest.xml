@@ -9,7 +9,6 @@
         android:supportsRtl="true"
         android:largeHeap="true"
         android:theme="@style/AppTheme">
-        <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.MainActivity" />
         <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.BusesActivity" />
         <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.CafesActivity" />
         <activity android:name="eu.ynalbantov.android.panda.visit.vratsa.EmergencyActivity" />
