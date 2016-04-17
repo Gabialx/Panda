@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:adjustViewBounds="true"
-            android:src="@drawable/c01i03"/>
+            android:src="@drawable/c03i03"/>
 
         <TextView
             style="@style/detailed_text"
