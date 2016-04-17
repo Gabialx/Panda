@@ -5,8 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.example.panda.myapplication.R;
-
 import eu.ynalbantov.android.panda.visit.vratsa.c1.*;
 
 /**

@@ -3,7 +3,7 @@ package eu.ynalbantov.android.panda.visit.vratsa.c1;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.example.panda.myapplication.R;
+import eu.ynalbantov.android.panda.visit.vratsa.R;
 
 /**
  * Created by Dani on 17.4.2016 г

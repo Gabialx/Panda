@@ -5,9 +5,14 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.example.panda.myapplication.R;
-
-import eu.ynalbantov.android.panda.visit.vratsa.c1.*;
+import eu.ynalbantov.android.panda.visit.vratsa.c1.c01s04i01Activity;
+import eu.ynalbantov.android.panda.visit.vratsa.c1.c01s04i02Activity;
+import eu.ynalbantov.android.panda.visit.vratsa.c1.c01s04i03Activity;
+import eu.ynalbantov.android.panda.visit.vratsa.c1.c01s04i04Activity;
+import eu.ynalbantov.android.panda.visit.vratsa.c1.c01s04i05Activity;
+import eu.ynalbantov.android.panda.visit.vratsa.c1.c01s04i06Activity;
+import eu.ynalbantov.android.panda.visit.vratsa.c1.c01s04i07Activity;
+import eu.ynalbantov.android.panda.visit.vratsa.c1.c01s04i08Activity;
 
 /**
  * Created by Dani on 16.4.2016 г
