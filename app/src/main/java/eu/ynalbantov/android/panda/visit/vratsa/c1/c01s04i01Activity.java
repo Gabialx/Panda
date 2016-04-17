@@ -16,4 +16,3 @@ public class c01s04i01Activity extends AppCompatActivity {
         setContentView(R.layout.activity_c01s04i01);
     }
 }
-

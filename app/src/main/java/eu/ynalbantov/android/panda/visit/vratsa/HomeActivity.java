@@ -1,6 +1,7 @@
 package eu.ynalbantov.android.panda.visit.vratsa;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -13,6 +14,11 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+    }
+
+    public void onShareClick(View arg0) {
+        Intent viewIntent = new Intent("android.intent.action.VIEW", Uri.parse("https://www.instagram.com"));
+        startActivity(viewIntent);
     }
 
     public void onHistoryClick(View v) {
