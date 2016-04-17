@@ -24,7 +24,7 @@
         <item name="android:layout_marginTop">4sp</item>
     </style>
 
-    <style name="category_image"/>
+    <style name="category_image" />
 
     <style name="category_text">
         <item name="android:fontFamily">sans-serif-light</item>
@@ -55,7 +55,7 @@
     </style>
 
     <style name="detailed_text">
-
+        <item name="android:autoLink">web</item>
     </style>
 
     <style name="text">
